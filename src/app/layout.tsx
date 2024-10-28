@@ -36,7 +36,7 @@ export default function RootLayout({
       <body className='flex flex-col'>
         <ThemeProvider
             attribute="class"
-            defaultTheme="system"
+            defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
           >
