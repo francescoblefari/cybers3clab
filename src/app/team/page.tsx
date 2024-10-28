@@ -14,13 +14,13 @@ import nextConfig from "@/../next.config";
   }
   const links:LinkType[] = [];
 
-  const coordinator = { name: 'Angelo Furfaro', role: 'Associate Professor', description: '', image: '/team_imgs/AngeloFurfaro.png'}
+  const coordinator = { name: 'Angelo Furfaro', role: 'Associate Professor', description: '', image: nextConfig.basePath+'/team_imgs/AngeloFurfaro.png'}
     
 
   const peoples = [
-    { name: 'Carmelo Felicetti', role: 'Assistant Professor', description: '', image: '/team_imgs/CarmeloFelicetti.jpeg'},
-    { name: 'Francesco Blefari', role: 'PhD Student', description: '', image: '/team_imgs/FrancescoBlefari.jpeg'},
-    { name: 'Francesco Aurelio Pironti', role: 'PhD Student', description: '', image: '/team_imgs/FrancescoAurelioPironti.jpeg'},
+    { name: 'Carmelo Felicetti', role: 'Assistant Professor', description: '', image: nextConfig.basePath+'/team_imgs/CarmeloFelicetti.jpeg'},
+    { name: 'Francesco Blefari', role: 'PhD Student', description: '', image: nextConfig.basePath+'/team_imgs/FrancescoBlefari.jpeg'},
+    { name: 'Francesco Aurelio Pironti', role: 'PhD Student', description: '', image: nextConfig.basePath+'/team_imgs/FrancescoAurelioPironti.jpeg'},
     { name: 'Francesco Romeo', role: 'PhD Student', description: '', image: nextConfig.basePath+'/team_imgs/FrancescoRomeo.jpeg'},
     
   ]
