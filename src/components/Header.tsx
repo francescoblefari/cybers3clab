@@ -24,7 +24,7 @@ export default function Header() {
         <div className='flex z-10'>
         <nav aria-label="Global" className="flex basis-full tems-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
-            <Link href={basePath} className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Cybers3cLab</span>
               <Image
                 alt=""
