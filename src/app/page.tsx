@@ -1,7 +1,9 @@
 import {Button} from '@/components/ui/button';
 import Image from 'next/image';
+import nextConfig from '../../next.config';
 
 export default function Page() {
+  const basePath = nextConfig.basePath;
   return (
     
       <div className="relative isolate px-6 lg:px-8">
@@ -19,7 +21,7 @@ export default function Page() {
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
-            <Image src="loghi/logo_full_white.svg" alt="" />
+            <Image src={basePath + "/loghi/logo_full_white.svg"} alt="" width={10000} height={100} className='' />
             {/* <h1 className="text-balance text-5xl font-semibold tracking-tight text-slate-200 sm:text-7xl">
               CyberS3cLab
             </h1> */}
