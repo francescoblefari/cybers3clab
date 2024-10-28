@@ -12,20 +12,19 @@ import nextConfig from "@/../next.config";
     name: string;
     href: string;
   }
-  const links:LinkType[] = [];
+const links:LinkType[] = [];
 
-  const coordinator = { name: 'Angelo Furfaro', role: 'Associate Professor', description: '', image: nextConfig.basePath+'/team_imgs/AngeloFurfaro.png'}
-    
-
-  const peoples = [
+const coordinator = { name: 'Angelo Furfaro', role: 'Associate Professor', description: '', image: nextConfig.basePath+'/team_imgs/AngeloFurfaro.png'}
+ 
+const peoples = [
     { name: 'Carmelo Felicetti', role: 'Assistant Professor', description: '', image: nextConfig.basePath+'/team_imgs/CarmeloFelicetti.jpeg'},
     { name: 'Francesco Blefari', role: 'PhD Student', description: '', image: nextConfig.basePath+'/team_imgs/FrancescoBlefari.jpeg'},
     { name: 'Francesco Aurelio Pironti', role: 'PhD Student', description: '', image: nextConfig.basePath+'/team_imgs/FrancescoAurelioPironti.jpeg'},
     { name: 'Francesco Romeo', role: 'PhD Student', description: '', image: nextConfig.basePath+'/team_imgs/FrancescoRomeo.jpeg'},
     
-  ]
+]
   
-  export default function page() {
+export default function page() {
     console.log(nextConfig)
     return (
       <div className="relative isolate overflow-hidden bg-gray-900 h-screen py-24 sm:py-32">

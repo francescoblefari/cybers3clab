@@ -5,7 +5,13 @@ const nextConfig: NextConfig = {
   basePath: "/cybers3clab",
   //output: "export",
   images: {
-    domains: ['images.unsplash.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        pathname: '**',
+      },
+    ]
   },
 };
 

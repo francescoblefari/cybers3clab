@@ -9,7 +9,20 @@ export const metadata = {
   title: 'Cybers3cLab',
   description: '| Enhancing your security skills',
   icons: {
-    icon: basePath+"/loghi/logo_scudo_white_squared.png"
+    icon: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        url: basePath+"/loghi/logo_scudo_black_squared.png",
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        url: basePath+"/loghi/logo_scudo_white_squared.png",
+        media: '(prefers-color-scheme: dark)',
+      },
+    ]
   }
 }
 
