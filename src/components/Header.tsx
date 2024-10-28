@@ -28,7 +28,7 @@ export default function Header() {
               <span className="sr-only">Cybers3cLab</span>
               <Image
                 alt=""
-                src={basePath + "/loghi/logo_scudo_white.svg"}
+                src={basePath + "/loghi/logo_scudo_white_squared.png"}
                 width={100}
                 height={100}
                 className="h-8 w-auto"
